@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-[Solution](https://phoenixmputu.github.io/Four-card-feature-section-solution/)
+[Demo](https://phoenixmputu.github.io/Four-card-feature-section-solution/)
 
 ## My process
 
