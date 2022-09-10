@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.section-top {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-bottom: 2px;
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.intro {
+  font-size: 23px;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  line-height: 20px;
+}
+
+.card-container {
+  width: 80%;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item-supervisor {
+  margin-right: 10px;
+}
+
+.item-calculator {
+    margin-left: 10px;
+}
+
+.item {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  border-top-width: 4px;
+  box-shadow: 0px 14px 20px -5px hsl(229, 6%, 66%);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card p {
+  margin-right: 10px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first {
+  border-top-color: hsl(180, 62%, 55%);
+  border-top-style: solid;
+}
+
+.third {
+  border-top-color: hsl(34, 97%, 64%);
+  margin-top: 10px;
+  border-top-style: solid;
+}
+
+.four {
+  border-top-color: hsl(212, 86%, 64%);
+  border-top-style: solid;
+}
+
+.second {
+  border-top-color: hsl(0, 78%, 62%);
+  margin-bottom: 10px;
+  border-top-style: solid;
+}
+
+@media screen and (max-width: 400px) {
+  .section-top {
+    width: 98%;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    text-align: center;
+  }
+  .item {
+    width: 99%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
